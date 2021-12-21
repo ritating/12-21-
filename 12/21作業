@@ -1,0 +1,1573 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        h4{
+            color: red;
+        }
+        h5{
+            color:blue;
+        }
+    </style>
+  </head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <h4>Alert(警報)「b4-alert-xxx」</h4>
+    <div class="container">
+        <h5>alert骨架,單一個alert</h5>
+        <div class="alert" role="alert">
+            <strong>alert</strong>
+        </div>
+        <hr>
+        <h5>改變顏色,將"修改"改成:primary,secondary,success,danger,warning,info,light,dark</h5>
+        <div class="alert alert-primary,secondary,success,danger,warning,info,light,dark" role="alert">
+            <strong>primary</strong>
+        </div>
+        <div class="alert alert-primary,secondary,success,danger,warning,info,light,dark" role="alert">
+            <strong>secondary</strong>
+        </div>
+        <div class="alert alert-primary,secondary,success,danger,warning,info,light,dark" role="alert">
+            <strong>success</strong>
+        </div>
+        <div class="alert alert-primary,secondary,success,danger,warning,info,light,dark" role="alert">
+            <strong>danger</strong>
+        </div>
+        <div class="alert alert-primary,secondary,success,danger,warning,info,light,dark" role="alert">
+            <strong>warning</strong>
+        </div>
+        <div class="alert alert-primary,secondary,success,danger,warning,info,light,dark" role="alert">
+            <strong>info</strong>
+        </div>
+        <div class="alert alert-primary,secondary,success,danger,warning,info,light,dark" role="alert">
+            <strong>light</strong>
+        </div>
+        <div class="alert alert-primary,secondary,success,danger,warning,info,light,dark" role="alert">
+            <strong>dark</strong>
+        </div>
+        <hr>
+        <h5>關閉alert視窗,將"修改"加入data-dismiss="alert",快捷鍵:b4-alert-closable</h5>
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <button type="button" class="close" data-dismiss="alert aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <strong>close</strong> 
+        </div>
+        <hr>
+        <h5>連結更接近外框顏色,將"修改"加入alert-link</h5>
+        <div class="alert alert-primary" role="alert">
+            A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+          </div>
+          <div class="alert alert-secondary" role="alert">
+            A simple secondary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+          </div>
+          <div class="alert alert-success" role="alert">
+            A simple success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+          </div>
+          <div class="alert alert-danger" role="alert">
+            A simple danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+          </div>
+          <div class="alert alert-warning" role="alert">
+            A simple warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+          </div>
+          <div class="alert alert-info" role="alert">
+            A simple info alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+          </div>
+          <div class="alert alert-light" role="alert">
+            A simple light alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+          </div>
+          <div class="alert alert-dark" role="alert">
+            A simple dark alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+          </div>
+    </div>
+    <hr>
+    <h4>Badge(標籤)「b4-badge-xxx」</h4>
+    <div class="container">
+        <h5>badge骨架,將"修改"替換成badge,單一個badge</h5>
+        <div>
+            <h3>Example heading <span class="badge">badge</span></h3>
+        </div>
+        <hr>
+        <h5>badge會自動符合文字的大小</h5>
+        <h1>Example heading <span class="badge badge-secondary">New</span></h1>
+        <h2>Example heading <span class="badge badge-secondary">New</span></h2>
+        <h3>Example heading <span class="badge badge-secondary">New</span></h3>
+        <hr>
+        <h5>badge可做成連結或按鈕的計數器</h5>
+        <button type="button" class="btn btn-secondary">
+            Notifications <span class="badge badge-light">4</span>
+        </button>
+        <hr>
+        <h5>改變顏色,將"修改"改成:primary,secondary,success,danger,warning,info,light,dark</h5>
+        <span class="badge badge-primary,secondary,success,danger,warning,info,light,dark">Primary</span>
+        <span class="badge badge-primary,secondary,success,danger,warning,info,light,dark">Secondary</span>
+        <span class="badge badge-primary,secondary,success,danger,warning,info,light,dark">Success</span>
+        <span class="badge badge-primary,secondary,success,danger,warning,info,light,dark">Danger</span>
+        <span class="badge badge-primary,secondary,success,danger,warning,info,light,dark">Warning</span>
+        <span class="badge badge-primary,secondary,success,danger,warning,info,light,dark">Info</span>
+        <span class="badge badge-primary,secondary,success,danger,warning,info,light,dark">Light</span>
+        <span class="badge badge-primary,secondary,success,danger,warning,info,light,dark">Dark</span>
+        <hr>
+        <h5>讓標籤更圓潤,將"修改"改成:badge-pill</h5>
+        <span class="badge badge-pill badge-primary">Primary</span>
+        <span class="badge badge-pill badge-secondary">Secondary</span>
+        <span class="badge badge-pill badge-success">Success</span>
+        <span class="badge badge-pill badge-danger">Danger</span>
+        <span class="badge badge-pill badge-warning">Warning</span>
+        <span class="badge badge-pill badge-info">Info</span>
+        <span class="badge badge-pill badge-light">Light</span>
+        <span class="badge badge-pill badge-dark">Dark</span>
+        <hr>
+        <h5>連結,將span改成a標籤,並加上href="#"(移入移出)</h5>
+        <span class="badge badge-primary">Primary</span>
+        <span class="badge badge-secondary">Secondary</span>
+        <span class="badge badge-success">Success</span>
+        <span class="badge badge-danger">Danger</span>
+        <span class="badge badge-warning">Warning</span>
+        <span class="badge badge-info">Info</span>
+        <span class="badge badge-light">Light</span>
+        <span class="badge badge-dark">Dark</span>
+    </div>
+    <hr>
+    <h4>breadcrumb(麵包屑)「b4-breadcrumb-xxx」</h4>
+    <div class="container">
+        <h5>將"修改"改成breadcrumb,並觀察::before和content變化</h5>
+        <ol class="修改">
+            <li class="breadcrumb-item"><a href="#">1</a></li>
+        </ol>
+        <hr>
+        <h5>不一定要使用li,a連結也可以,將span標籤改成a標籤,其觀察變化</h5>
+        <nav class="breadcrumb">
+            <span class="breadcrumb-item" href="#">a1</span>
+            <span class="breadcrumb-item" href="#">a2</span>
+            <span class="breadcrumb-item active">a3</span>
+        </nav>
+    </div>
+    <hr>
+    <h4>button(按鈕)「b4-button-xxx」</h4>
+    <div class="container">
+        <h5>button骨架,將"修改"替換成btn,單一個button</h5>
+        <button type="button" class="修改">button</button>
+        <hr>
+        <h5>改變顏色,將"修改"改成primary,secondary,success,danger,warning,info,light,dark,link(超連結若要跟其他按鈕做並排的話)[拿掉註解]</h5>
+        <button type="button" class="btn btn-修改">Primary</button>
+        <button type="button" class="btn btn-修改">Secondary</button>
+        <button type="button" class="btn btn-修改">Success</button>
+        <button type="button" class="btn btn-修改">Danger</button>
+        <button type="button" class="btn btn-修改">Warning</button>
+        <button type="button" class="btn btn-修改">Info</button>
+        <button type="button" class="btn btn-修改">Light</button>
+        <button type="button" class="btn btn-修改">Dark</button>
+        <button type="button" class="btn btn-修改">Link</button>
+        <!-- <a href="#">link</a> -->
+        <hr>
+        <h5>可使用不同的標籤,將"註解"的type加入到input裡面</h5>
+        <a class="btn btn-primary" href="#" role="button">Link</a>
+        <button class="btn btn-primary" type="submit">Button</button>
+        <input class="btn btn-primary" value="Input"> <!-- type="button" -->
+        <input class="btn btn-primary" value="Submit"><!-- type="submit" -->
+        <input class="btn btn-primary" value="Reset"><!-- type="reset" -->
+        <hr>
+        <h5>外框按鈕,將"修改"改成outline</h5>
+        <button type="button" class="btn btn-修改-primary">Primary</button>
+        <button type="button" class="btn btn-修改-secondary">Secondary</button>
+        <button type="button" class="btn btn-修改-success">Success</button>
+        <button type="button" class="btn btn-修改-danger">Danger</button>
+        <button type="button" class="btn btn-修改-warning">Warning</button>
+        <button type="button" class="btn btn-修改-info">Info</button>
+        <button type="button" class="btn btn-修改-light">Light</button>
+        <button type="button" class="btn btn-修改-dark">Dark</button>
+        <hr>
+        <h5>按鈕大小,將"修改"改成btn-lg或btn-sm</h5>
+        <button type="button" class="btn btn-primary 修改">Large button</button>
+        <button type="button" class="btn btn-primary">Button</button>
+        <button type="button" class="btn btn-primary 修改">Small button</button><hr>
+        <h5>按鈕塊狀,將"修改"改成btn-block</h5>
+        <button type="button" class="btn btn-primary btn-lg 修改">Block level button</button>
+        <button type="button" class="btn btn-secondary btn-lg 修改">Block level button</button>
+        <h5>改變狀態,將"修改"改成active和disabled</h5>
+        <button type="button" class="btn btn-warning">Primary</button>
+        <button type="button" class="btn btn-warning 修改">Active</button>
+        <button type="button" class="btn btn-warning" 修改>disabled</button> <!-- button有支援disabled屬性 -->
+        <a class="btn btn-primary 修改" href="#">disabled</a> <!-- tab還是可以點得到(建議用button會比較好) -->
+    </div>
+    <hr>
+    <h4>Button Group(按鈕群組)「b4-bgroup-xxx/b4-igroup-xxx」</h4>
+    <div class="container">
+        <h5>按鈕群組,將"修改"改成btn-group</h5>
+        <div class="修改" role="group">
+            <button type="button" class="btn btn-success">1</button>
+            <button type="button" class="btn btn-success">2</button>
+            <button type="button" class="btn btn-success">3</button>
+        </div>
+        <hr>
+        <h5>群組大小,將"修改"改成btn-group-lg,btn-group-sm</h5>
+        <div class="btn-group 修改" role="group">
+            <button type="button" class="btn btn-success">lg-1</button>
+            <button type="button" class="btn btn-success">lg-2</button>
+            <button type="button" class="btn btn-success">lg-3</button>
+        </div>
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-success">1</button>
+            <button type="button" class="btn btn-success">2</button>
+            <button type="button" class="btn btn-success">3</button>
+        </div>
+        <div class="btn-group 修改" role="group">
+            <button type="button" class="btn btn-success">sm-1</button>
+            <button type="button" class="btn btn-success">sm-2</button>
+            <button type="button" class="btn btn-success">sm-3</button>
+        </div>
+        <hr>
+        <h5>再度群組化,將整個群組按鈕加入按鈕工具,適用於更複雜的組件,將"修改"改成btn-toolbar,可再加上主軸線的用法(btn-toolbar會變成d-flex樣式)</h5>
+        <div class="修改" role="toolbar" aria-label="">
+            <div class="btn-group" role="group" aria-label="">
+                <button type="button" class="btn btn-primary">a1</button>
+                <button type="button" class="btn btn-primary">a2</button>
+                <button type="button" class="btn btn-primary">a3</button>
+            </div>
+            <div class="btn-group" role="group" aria-label="">
+                <button type="button" class="btn btn-primary">b1</button>
+                <button type="button" class="btn btn-primary">b2</button>
+            </div>
+            <div class="btn-group" role="group" aria-label="">
+                <button type="button" class="btn btn-primary">c1</button>
+            </div>
+        </div>
+        <hr>
+        <h5>InputGroup,將"修改"改成input-group</h5>
+        <div class="修改">
+            <div class="input-group-prepend">
+              <div class="input-group-text">@</div>
+            </div>
+            <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="btnGroupAddon">
+        </div>
+    </div>
+    <hr>
+    <h4>Card(卡片)「b4-card-xxx」</h4>
+    <div class="container">
+        <h5>Card,將"修改"改成:card</h5>
+        <div class="修改" style="width:20rem">
+            <img class="修改-img-top" src="https://picsum.photos/id/100/180" alt="">
+            <div class="修改-body">
+                <h4 class="修改-title">Title</h4>
+                <p class="修改-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="修改-link">Card link</a>
+                <a href="#" class="修改-link">Another link</a>
+            </div>
+            <div class="修改-footer text-muted">
+                2 days ago
+            </div>
+        </div>
+        <hr>
+        <h5>card-group(Card群組化),將"修改"改成:card-group(無間隔)和card-deck(有間隔)</h5>
+        <div class="修改">
+            <div class="card">
+                <img src="https://picsum.photos/id/100/180" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/id/100/180" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/id/100/180" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h5>Navigation(導覽),將"修改"改成:nav-tabs card-header-tabs和nav-pills card-header-pills</h5>
+        <div class="card text-center">
+            <div class="card-header">
+                <ul class="nav 修改">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h4>Carousel(輪播)「b4-carousel-xxx」</h4>
+    <div class="container">
+        <h5>基本樣式,將"修改"改成:data-ride="carousel",要加入data-api才能運作</h5>
+        <div class="carousel slide" 修改>
+            <div class="carousel-inner" role="listbox"> <!-- 輪播主要區塊 -->
+                <div class="carousel-item active">
+                    <img src="https://picsum.photos/1200/200/?random=1" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/1200/200/?random=2" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/1200/200/?random=3" alt="Third slide">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h5>輪播方式改變,將"修改"改成:carousel-fade</h5>
+        <div class="carousel slide 修改" data-ride="carousel">
+            <div class="carousel-inner" role="listbox"> <!-- 輪播主要區塊 -->
+                <div class="carousel-item active">
+                    <img src="https://picsum.photos/1200/200/?random=4" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/1200/200/?random=5" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/1200/200/?random=6" alt="Third slide">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h5>加上字幕,將"修改"改成:carousel-caption</h5>
+        <div id="carouselId2" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox"> <!-- 輪播主要區塊 -->
+                <div class="carousel-item active">
+                    <img src="https://picsum.photos/1200/200/?random=4" alt="First slide">
+                    <div class="修改 d-none d-md-block">
+                        <h3>h1</h3>
+                        <p>https://picsum.photos/1200/200/?random=4</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/1200/200/?random=5" alt="Second slide">
+                    <div class="修改 d-none d-md-block">
+                        <h3>h2</h3>
+                        <p>https://picsum.photos/1200/200/?random=5</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/1200/200/?random=6" alt="Third slide">
+                    <div class="修改 d-none d-md-block">
+                        <h3>h3</h3>
+                        <p>https://picsum.photos/1200/200/?random=6</p>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselId2" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselId2" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <hr>
+        <h5>多功能輪播,將"修改"改成相同id:#carouselId(注意id要加上#)</h5>
+        <div id="carouselId" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="修改" data-slide-to="0" class="active"></li>
+                <li data-target="修改" data-slide-to="1"></li>
+                <li data-target="修改" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="https://picsum.photos/1200/200/?random=7" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/1200/200/?random=8" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/1200/200/?random=9" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="修改" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="修改" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <hr>
+        <h5>加上時間,將"修改"改成:data-interval="毫秒"</h5>
+        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" 修改>
+                    <img src="https://picsum.photos/1200/200/?random=4" alt="First slide">
+                </div>
+                <div class="carousel-item" 修改>
+                    <img src="https://picsum.photos/1200/200/?random=5" alt="Second slide">
+                </div>
+                <div class="carousel-item" 修改>
+                    <img src="https://picsum.photos/1200/200/?random=6" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <hr>
+    <h4>Collapse(折疊)「b4-collapse-xxx」</h4>
+    <div class="container">
+        <ul>
+            <li>.collapse 隱藏內容</li>
+            <li>.collapsing 套用轉換中的動態效果</li>
+            <li>.collapse.show 顯示內容</li>
+        </ul>
+        <h5>折疊初始化,將"修改"改成 data-toggle="collapse"</h5>
+        <p>
+            <a class="btn btn-primary" 修改 href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Link with href
+            </a>
+            <button class="btn btn-primary" type="button" 修改 data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Button with data-target
+            </button>
+        </p>
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+        </div>
+        <hr>
+        <h5>指定id,將"修改"改成:href="#collapseExample2"
+            將"修改2"改成:data-target="#collapseExample2"(button要用這種方式)
+        </h5>
+        <p>
+            <a class="btn btn-primary" data-toggle="collapse" 修改 role="button" aria-expanded="false" aria-controls="collapseExample">
+                Link with href
+            </a>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" 修改 aria-expanded="false" aria-controls="collapseExample">
+                Button with data-target
+            </button>
+        </p>
+        <div class="collapse" id="collapseExample2">
+            <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+        </div>
+        <hr>
+        <h5>多個目標(id和class), 將"修改"改成:.multi-collapse(可指定class)</h5>
+        <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="修改" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+        </p>
+        <div class="row">
+            <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                    <div class="card card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                    <div class="card card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h5>
+            口風琴式的折疊
+            <ul>
+                <li>將"修改"改成data-toggle="collapse"</li>
+                <li>顯示多個內容,拿掉:data-parent="#accordionExample"(指定外層的id="accordionExample"),觀察變化</li>
+            </ul>
+        </h5>
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" 修改 data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Collapsible Group Item #1
+                        </button>
+                    </h2>
+                </div>
+          
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" 修改 data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Collapsible Group Item #2
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" 修改 data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Collapsible Group Item #3
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h4>DropDown(下拉選單)「b4-dropdown-xxx」</h4>
+    <div class="container">
+        <div class="dropdown">
+            <h5>dropdown初始化, 將"修改"改成:data-toggle="dropdown"</h5>
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" 修改 aria-haspopup="true" aria-expanded="false">
+                Dropdown button
+            </button>
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" 修改 aria-haspopup="true" aria-expanded="false">
+                Dropdown link
+              </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+            <hr>
+            <h5>
+                分離式按鈕
+                <ul>
+                    <li>將"修改"改成:btn-group,並且將"修改2"改成:dropdown-toggle-split(不加按鈕樣式會比較大)</li>
+                    <li>分群組,dropdown-item加入分隔線,將註解拿掉,觀察其變化</li>
+                </ul>
+            </h5>
+            <div class="修改">
+                <button type="button" class="btn btn-danger">Action</button>
+                <button type="button" class="btn btn-danger dropdown-toggle 修改2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <!-- <div class="dropdown-divider"></div> -->
+                    <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+            </div>
+            <hr>
+            <h5>改變方向, 將"修改"改成:dropup,dropleft,dropright</h5>
+            <div class="btn-group 修改">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropup
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </div>
+            <hr>
+            <h5>改變清單方向, 將"修改"改成:dropdown-menu-right,dropdown-menu-left</h5>
+            <div class="btn-group">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+                    Left-aligned but right aligned when large screen
+                </button>
+                <div class="dropdown-menu 修改">
+                    <button class="dropdown-item" type="button">Action</button>
+                    <button class="dropdown-item" type="button">Another action</button>
+                    <button class="dropdown-item" type="button">Something else here</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h4>Form(表單)「b4-form-xxx」</h4>
+    <div class="container">
+        <h5>Form input,將"修改"改成:form</h5>
+        <form>
+            <div class="修改-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="修改-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="修改-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="修改-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="修改-control" id="exampleInputPassword1">
+            </div>
+        </form>
+        <hr>
+        <h5>Form checkbox,將"修改"改成:form</h5>
+        <form>
+            <div class="修改-group 修改-check">
+                <input type="checkbox" class="修改-check-input" id="exampleCheck1">
+                <label class="修改-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+        </form>
+        <hr>
+        <h5>Form select,將"修改"改成:form</h5>
+        <form>
+            <div class="修改-group">
+                <label for="exampleFormControlSelect1">Example select</label>
+                <select class="修改-control" id="exampleFormControlSelect1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <!-- 多選型 -->
+            <div class="修改-group">
+                <label for="exampleFormControlSelect2">Example multiple select</label>
+                <select multiple class="修改-control" id="exampleFormControlSelect2">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+        </form>
+        <h5>Form textarea,將"修改"改成:form</h5>
+        <form>
+            <div class="修改-group">
+                <label for="exampleFormControlTextarea1">Example textarea</label>
+                <textarea class="修改-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </form>
+        <hr>
+        <h5>大小,將"修改"改成:lg,sm</h5>
+        <form>
+            <input class="form-control form-control-修改" type="text" placeholder=".form-control-lg">
+            <input class="form-control" type="text" placeholder="Default input">
+            <input class="form-control form-control-修改" type="text" placeholder=".form-control-sm">
+            <select class="form-control form-control-修改">
+                <option>Large select</option>
+            </select>
+            <select class="form-control">
+                <option>Default select</option>
+            </select>
+            <select class="form-control form-control-修改">
+                <option>Small select</option>
+            </select>
+        </form>
+        <hr>
+        <h5>僅能閱讀,將"修改"改成:readonly</h5>
+        <form>
+            <input class="form-control" type="text" placeholder="Readonly input here..." 修改>
+        </form>
+        <hr>
+        <h5>水平排列,將"修改"改成:form-check-inline</h5>
+        <form>
+            <div class="form-check 修改">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">1</label>
+            </div>
+            <div class="form-check 修改">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">2</label>
+            </div>
+            <div class="form-check 修改">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled>
+                <label class="form-check-label" for="inlineCheckbox3">3 (disabled)</label>
+            </div>
+        </form>
+        <hr>
+        <h5>格線
+            <ul>
+                <li>將"修改"改成:row</li>
+                <li>將"修改2"改成:form-row</li>
+            </ul>
+        </h5>
+        <form>
+            <!-- 會有gutter -->
+            <div class="修改">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name">
+                </div>
+            </div>
+            <div class="修改2">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name">
+                </div>
+            </div>
+        </form>
+        <hr>
+        <h5>格線,將"修改"改成:col-form-label</h5>
+        <form>
+            <div class="form-row">
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-2 修改">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail3">
+                    </div>
+                </div>
+            </div>
+        </form>
+        <hr>
+        <h5>行內表單,將"修改"改成:col-form-label</h5>
+        <form>
+            <div class="form-row">
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-2 修改">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail3">
+                    </div>
+                </div>
+            </div>
+        </form>
+        <hr>
+        <h5>表單文字,將"修改"改成:form-text(padding會改變)</h5>
+        <form>
+            <label for="inputPassword5">Password</label>
+            <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+            <small id="passwordHelpBlock" class="form-text text-muted">
+                Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+            </small>
+        </form>
+        <hr>
+        <h5>禁用表單,將"修改"改成:disabled</h5>
+        <form>
+            <div class="form-group">
+                <label for="disabledTextInput">Disabled input</label>
+                <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input" 修改>
+            </div>
+            <div class="form-group">
+                <label for="disabledSelect">Disabled select menu</label>
+                <select id="disabledSelect" class="form-control" 修改>
+                    <option>Disabled select</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" 修改>
+                <label class="form-check-label" for="disabledFieldsetCheck">
+                    Can't check this
+                </label>
+                </div>
+            </div>
+        </form>
+    </div>
+    <hr>
+    <h4>Form validation(表單驗證)「b4-form-validation</h4>
+    <div class="container">
+        <h5>
+            伺服器端的回饋
+            <ul>
+                <li>驗證成功,將"修改"改成:is-valid,回饋方式=>將"修改回饋"改成:valid-feedback</li>
+                <li>驗證失敗,將"修改2"改成:is-invalid,回饋方式=>將"修改回饋2"改成:invalid-feedback</li>
+            </ul>
+        </h5>
+        <form>
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="validationServer01">First name</label>
+                    <input type="text" class="form-control 修改" id="validationServer01" value="Mark" required>
+                    <div class="修改回饋">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="validationServer02">Last name</label>
+                    <input type="text" class="form-control 修改" id="validationServer02" value="Otto" required>
+                    <div class="修改回饋">
+                        Looks good!
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="validationServer03">City</label>
+                    <input type="text" class="form-control 修改2" id="validationServer03" required>
+                    <div class="修改回饋2">
+                        Please provide a valid city.
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="validationServer04">State</label>
+                    <select class="custom-select 修改2" id="validationServer04" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>...</option>
+                    </select>
+                    <div class="修改回饋2">
+                        Please select a valid state.
+                    </div>
+                </div>
+            </div>
+        </form>
+        <hr>
+        <h5>
+            html5的回饋(前端)
+            <ul>
+                <li>1.將底下script註解打開</li>
+                <li>2."novalidate":表單還沒有驗證，裡面沒有驗證的內容不要顯示</li>
+                <li>3.將"修改"改成:required，記得input要觸發的話要記得加上required</li>
+            </ul>
+        </h5>
+        <form class="needs-validation" novalidate>
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="validationCustom01">First name</label>
+                    <input type="text" class="form-control" id="validationCustom01" value="Mark" 修改>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="validationCustom02">Last name</label>
+                    <input type="text" class="form-control" id="validationCustom02" value="Otto" 修改>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="validationCustom03">City</label>
+                    <input type="text" class="form-control" id="validationCustom03" 修改>
+                    <div class="invalid-feedback">
+                        Please provide a valid city.
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="validationCustom04">State</label>
+                    <select class="custom-select" id="validationCustom04" 修改>
+                        <option selected disabled value="">Choose...</option>
+                        <option>...</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Please select a valid state.
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="validationCustom05">Zip</label>
+                    <input type="text" class="form-control" id="validationCustom05" 修改>
+                    <div class="invalid-feedback">
+                        Please provide a valid zip.
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" 修改>
+                    <label class="form-check-label" for="invalidCheck">
+                    Agree to terms and conditions
+                    </label>
+                    <div class="invalid-feedback">
+                    You must agree before submitting.
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit form</button>
+        </form>
+        <script>
+            // (function() {
+            //     'use strict';
+            //     window.addEventListener('load', function() {
+            //     var forms = document.getElementsByClassName('needs-validation');
+            //     var validation = Array.prototype.filter.call(forms, function(form) {
+            //         form.addEventListener('submit', function(event) {
+            //         if (form.checkValidity() === false) {
+            //             event.preventDefault();
+            //             event.stopPropagation();
+            //         }
+            //         form.classList.add('was-validated');
+            //         }, false);
+            //     });
+            //     }, false);
+            // })();
+        </script>
+    </div>
+    <hr>
+    <h4>input group(input群組)「b4-igroup-xxx」</h4>
+    <div class="container">
+        <h5>使用方式,將"修改"改成:input-group</h5>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">@</span>
+            </div>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <hr>
+        <h5>大小,將"修改"改成:input-group-lg,input-group-sm</h5>
+        <div class="input-group input-group-lg,input-group-sm mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Default</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group input-group-lg,input-group-sm">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-lg">Large</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        </div>
+        <hr>
+        <h5>前後,將"修改"改成:prepend,append</h5>
+        <div class="input-group mb-3">
+            <div class="input-group-:prepend,append">
+                <span class="input-group-text">$</span>
+                <span class="input-group-text">0.00</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+        </div>
+        <div class="input-group">
+            <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+            <div class="input-group-:prepend,append">
+                <span class="input-group-text">$</span>
+                <span class="input-group-text">0.00</span>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h4>jumbotron(廣告大螢幕)「b4-jumbotron-xxx」</h4>
+    <div class="container">
+        <h5>jumbotron,將"修改"改成:jumbotron</h5>
+        <div class="jumbotron">
+            <h1 class="display-4">Hello, world!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
+        <hr>
+        <h5>不要有圓角,將"修改"改成:jumbotron-fluid</h5>
+        <div class="jumbotron mbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Fluid jumbotron</h1>
+                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h4>List group(列表群組)「b4-list-xxx」</h4>
+    <div class="container">
+        <h5>listgroup li初始化,將"修改"改成:list-group</h5>
+        <ul class="修改">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+        <hr>
+        <h5>li的選擇及不選擇,將"修改"改成:active,disabled</h5>
+        <ul class="list-group">
+            <li class="list-group-item active,disabled">Cras justo odio</li>
+            <li class="list-group-item active,disabled">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+        <hr>
+        <h5>listgroup a連結初始化,將"修改"改成:list-group-item-action</h5>
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">
+              Cras justo odio
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+            <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+            <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+            <a href="#" class="list-group-item list-group-item-action">Vestibulum at eros</a>
+        </div>
+        <hr>
+        <h5>a連結的選擇及不選擇,將"修改"改成:active,disabled</h5>
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-actionactive,disabled">
+              Cras justo odio
+            </a>
+            <a href="#" class="list-group-item list-group-item-action active,disabled">Dapibus ac facilisis in</a>
+            <a href="#" class="list-group-item list-group-item-action active,disabled">Morbi leo risus</a>
+            <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+            <a href="#" class="list-group-item list-group-item-action">Vestibulum at eros</a>
+        </div>
+        <hr>
+        <h5>顏色,將"修改"改成:primary,secondary,success,danger,warning,info,light,dark</h5>
+        <div class="list-group">>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-primary,secondary,success,danger,warning,info,light,dark">primary</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-primary,secondary,success,danger,warning,info,light,dark">secondary</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-primary,secondary,success,danger,warning,info,light,dark">success</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-primary,secondary,success,danger,warning,info,light,dark">danger</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-primary,secondary,success,danger,warning,info,light,dark">warning</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-primary,secondary,success,danger,warning,info,light,dark">info</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-primary,secondary,success,danger,warning,info,light,dark">light</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-primary,secondary,success,danger,warning,info,light,dark">dark</a>
+        </div>
+    </div>
+    <hr>
+    <h4>Media(媒體)「b4-media-xxx」</h4>
+    <div class="container">
+        <h5>media初始化,其實media用到的就是d-flex,有印象就好</h5>
+        <div class="media">
+            <img src="https://fakeimg.pl/75x75" class="align-self-start mr-3" alt="...">
+            <div class="media-body">
+                <h5 class="mt-0">Top-aligned media</h5>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            </div>
+        </div>
+        <div class="d-flex">
+            <img src="https://fakeimg.pl/75x75" class="align-self-start mr-3" alt="...">
+            <div class="media-body">
+                <h5 class="mt-0">Top-aligned media</h5>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h4>Modal(互動式窗)「b4-modal-xxx」</h4>
+    <div class="container">
+        <h5>
+            <ul>
+                <li>modal動起來,將"修改"改成:data-toggle="modal"</li>
+                <li>按鈕關閉modal,將"修改2"改成:data-dismiss="modal"</li>
+            </ul>
+        </h5>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Launch demo modal
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h5>尺寸,將"修改"改成:lg,sm</h5>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalsize">
+            尺寸
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="modalsize" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg,sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalsizeLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h5>垂直水平置中,將"修改"改成:modal-dialog-centered</h5>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalcenter">
+            垂直水平置中
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="modalcenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalsizeLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        center
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h5>滑動,將"修改"改成:modal-dialog-scrollable</h5>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalscrollable">
+            滑動
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="modalscrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalsizeLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur blanditiis hic, recusandae vero adipisci voluptate, debitis dolore molestiae iusto optio sit quia quos fuga odio quam iure, et enim quaerat!
+                        Praesentium delectus consequatur vero voluptates nemo consequuntur, quos eum quas quae! Quidem quia vitae beatae placeat autem iusto vero et delectus, dicta sapiente nemo voluptatibus modi provident soluta. Modi, doloribus!
+                        Facere iure maxime quisquam, nulla voluptates vero repellendus corrupti, ex eum sapiente sit, sed omnis. Dolor quaerat vero quae, neque fugiat cumque ducimus amet odit incidunt distinctio, inventore optio maxime.
+                        Reprehenderit dolorum commodi ipsam iure voluptatibus impedit dolorem est! Iure, recusandae nisi beatae quos tempore aspernatur fugiat inventore hic cupiditate ad natus eius libero ipsum alias unde nemo commodi exercitationem!
+                        Delectus numquam, quaerat earum exercitationem recusandae quod totam repellat sed alias debitis reprehenderit vero adipisci cum fugiat eaque minima asperiores doloribus pariatur rem quibusdam. Repudiandae vitae rerum officia inventore quas?
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h4>Navs(導覽)「b4-nav-xxx」</h4>
+    <div class="container">
+        <h5>
+            <ul>
+                <li>ul結構,將"修改"改成:nav</li>
+                <li>a連結結構,將"修改2"改成:nav</li>
+            </ul>
+        </h5>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+        <nav class="nav">
+            <a class="nav-link active" href="#">Active</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link disabled" href="#">Disabled</a>
+        </nav>
+        <hr>
+        <h5>對齊,將"修改"改成:center,start,end,around,between</h5>
+        <ul class="nav justify-content-center,start,end,around,between">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
+        <hr>
+        <h5>
+            樣式
+            <ul>
+                <li>tab,將"修改"改成:</li>
+                <li>pill(片狀)樣式,將"修改2"改成:nav-pills(卡片有用過)</li>
+            </ul>
+        </h5>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active">tab1</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link">tab2</a>
+            </li>
+        </ul>
+        <br>
+        <ul class="nav nav-pills" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active">pills1</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link">pills2</a>
+            </li>
+        </ul>
+        <hr>
+        <h5>
+            JavaScript
+            <ul>
+                <li>tabs樣式,將"修改"改成:data-toggle="tab",data-toggle="pill"</li>
+            </ul>
+        </h5>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="home-tab" data-toggle="tab",data-toggle="pill href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="profile-tab" data-toggle="tab",data-toggle="pill href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="messages-tab" data-toggle="tab",data-toggle="pill href="#messages" role="tab" aria-controls="messages" aria-selected="false">Messages</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="settings-tab" data-toggle="tab",data-toggle="pill href="#settings" role="tab" aria-controls="settings" aria-selected="false">Settings</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">HOME</div>
+            <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">profile</div>
+            <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">messages</div>
+            <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">settings</div>
+        </div>
+    </div>
+    <hr>
+    <h4>Navbar(導覽列)「b4-navbar-xxx」</h4>
+    <div class="container">
+        <h5>
+            <ul>
+                <li>a連結,將"修改"改成:navbar</li>
+                <li>span樣式,將"修改2"改成:navbar"</li>
+            </ul>
+        </h5>
+        <!-- As a link -->
+        <nav class="修改 修改-light bg-light">
+            <a class="修改-brand" href="#">Navbar</a>
+        </nav>
+        <!-- As a heading -->
+        <nav class="修改2 修改2-light bg-light">
+            <span class="修改2-brand mb-0 h1">Navbar</span>
+        </nav>
+        <hr>
+        <h5>
+            主題
+            <ul>
+                <li>light主題(灰底黑字),將"修改"改成:navbar-light bg-light</li>
+                <li>dark主題(黑底白字),將"修改2"改成:navbar-dark bg-dark</li>
+            </ul>
+        </h5>
+        <nav class="navbar 修改">
+            <a class="navbar-brand" href="#">light</a>
+        </nav>
+        <nav class="navbar 修改2">
+            <span class="navbar-brand mb-0 h1">dark</span>
+        </nav>
+        <hr>
+        <h5>
+            尺寸
+            <ul>
+                <li>將"修改"改成:lg,sm,xl,會隱藏起來</li>
+                <li>將"修改2"改成:data-toggle="collapse",折疊的功能</li>
+            </ul>
+        </h5>
+        <nav class="navbar navbar-expand-修改 navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" 修改2 data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">Features</a>
+                    <a class="nav-item nav-link" href="#">Pricing</a>
+                    <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </div>
+            </div>
+        </nav>
+        <hr>
+        <h5>品牌,將"修改"改成:navbar-brand</h5>
+        <nav class="navbar navbar-light bg-light">
+            <a class="修改" href="#">
+                <img src="https://fakeimg.pl/30x30" class="d-inline-block align-top" alt="" loading="lazy">
+                品牌logo
+            </a>
+        </nav>
+        <hr>
+        <h5>
+            定位
+            <ul>
+                <li>Fixed top,將"修改"改成:fixed-top</li>
+                <li>Fixed bottom,將"修改"改成:fixed-bottom</li>
+                <li>Sticky top,將"修改"改成:sticky-top</li>
+            </ul>
+        </h5>
+        <nav class="navbar 修改 navbar-light bg-light">
+            <a class="navbar-brand" href="#">Fixed top</a>
+        </nav>
+    </div>
+    <hr>
+    <h4>Pagination(分頁)「b4-pagination-xxx」</h4>
+    <div class="container">
+        <h5>將"修改"改成:pagination</h5>
+        <nav aria-label="Page navigation example">
+            <ul class="修改">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+        <h5>大小,將"修改"改成:lg,xl,sm</h5>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination pagination-修改">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+        <h5>位置,將"修改"改成:start,center,end,between,around</h5>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-修改">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+    <hr>
+    <h4>Popovers(彈出提示框),大量訊息「b4-popover-xxx」</h4>
+    <div class="container">
+        <h5>初始化,必須加入js,將"註解"拿掉</h5>
+        <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-toggle="popover" data-trigger="focus" title="title" data-content="content">
+            Popover
+        </a>
+        <!-- <script>
+            $(function () { 
+                $('[data-toggle="popover"]').popover();
+            });
+        </script> -->
+        <hr>
+        <h5>位置
+            <ul>
+                <li>必須加入js,將"註解"拿掉</li>
+                <li>將"修改"改成:data-placement="right,top,left,bottom"</li>
+            </ul>
+        </h5>
+        <a tabindex="0" class="btn btn-lg btn-danger" 修改 role="button" data-toggle="popover" data-trigger="focus" title="title" data-content="content">
+            Popover
+        </a>
+        <!-- <script>
+            $(function () { 
+                $('[data-toggle="popover"]').popover();
+            });
+        </script> -->
+    </div>
+    <hr>
+    <h4>Tooltips(彈出提示框),少量訊息「b4-tooltip-xxx」</h4>
+    <div class="container">
+        <h5>初始化,必須加入js,將"註解"拿掉</h5>
+        <button type="button" class="btn btn-secondary" data-toggle="tooltip" title="Tooltip on top">
+            Tooltip on top
+        </button>
+        <!-- <script>
+            $(function () { 
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+        </script> -->
+        <hr>
+        <h5>位置
+            <ul>
+                <li>必須加入js,將"註解"拿掉</li>
+                <li>將"修改"改成:data-placement="right,top,left,bottom"</li>
+            </ul>
+        </h5>
+        <button type="button" class="btn btn-secondary" 修改 data-toggle="tooltip" title="Tooltip on top">
+            Tooltip on top
+        </button>
+        <!-- <script>
+            $(function () { 
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+        </script> -->
+    </div>
+    <hr>
+    <h4>Progress(進度條)「b4-progress-xxx」</h4>
+    <div class="container">
+        <h5>將"修改"改成:progress</h5>
+        <div class="修改"> <!--灰色-->
+            <!--藍色內容--><div class="修改-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <hr>
+        <h5>變化數值,將"修改"改成:0~100</h5>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 修改%">修改%</div>
+        </div>
+        <hr>
+        <h5>顏色,將"修改"改成:primary,secondary,success,danger,warning,info,light,dark</h5>
+        <div class="progress">
+            <div class="progress-bar bg-修改" role="progressbar" style="width: 20%">20%</div>
+        </div>
+        <hr>
+        <h5>紋路樣式,將"修改"改成:progress-bar-striped</h5>
+        <div class="progress">
+            <div class="progress-bar bg-success 修改" role="progressbar" style="width: 20%">20%</div>
+        </div>
+    </div>
+    <hr>
+    <h4>Scrollspy(滾動監控)「b4-scrollspy-xxx」</h4>
+    <div class="container">
+        <h5>
+            <ul>
+                <li>將"修改"改成:data-spy="scroll"</li>
+                <li>註解要拿掉</li>
+            </ul>
+        </h5>
+        <nav id="navbar-example2" class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#fat">@fat</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#mdo">@mdo</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#one">one</a>
+                        <a class="dropdown-item" href="#two">two</a>
+                        <div role="separator" class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#three">three</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="scrollspy-example" 修改 data-target="#navbar-example2" data-offset="0">
+            <h4 id="fat">@fat</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis obcaecati eligendi, neque corporis voluptate dolores sed ex doloremque, omnis, necessitatibus recusandae in quidem. Quisquam nam optio, consequatur quidem iste dolor.</p>
+            <h4 id="mdo">@mdo</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis obcaecati eligendi, neque corporis voluptate dolores sed ex doloremque, omnis, necessitatibus recusandae in quidem. Quisquam nam optio, consequatur quidem iste dolor.</p>
+            <h4 id="one">one</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis obcaecati eligendi, neque corporis voluptate dolores sed ex doloremque, omnis, necessitatibus recusandae in quidem. Quisquam nam optio, consequatur quidem iste dolor.</p>
+            <h4 id="two">two</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis obcaecati eligendi, neque corporis voluptate dolores sed ex doloremque, omnis, necessitatibus recusandae in quidem. Quisquam nam optio, consequatur quidem iste dolor.</p>
+            <h4 id="three">three</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis obcaecati eligendi, neque corporis voluptate dolores sed ex doloremque, omnis, necessitatibus recusandae in quidem. Quisquam nam optio, consequatur quidem iste dolor.</p>
+        </div>
+        <style>
+            /* .scrollspy-example{
+                position: relative;
+                height: 200px;
+                overflow: auto;
+            } */
+        </style>
+    </div>
+    <hr>
+    <h4>Spinner(微調器)</h4>
+    <div class="container">
+        <h5>初始化
+            <ul>
+                <li>將"修改"改成:spinner-border</li>
+                <li>將"修改2"改成:sr-only</li>
+            </ul>
+        </h5>
+        <div class="修改" role="status">
+            <span class="修改2">Loading...</span>
+        </div>
+        <hr>
+        <h5>改變顏色,將"修改"改成:primary,secondary,success,danger,warning,info,light,dark</h5>
+        <div class="spinner-border text-修改" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <hr>
+        <h5>改變樣式,將"修改"改成:spinner-grow</h5>
+        <div class="修改" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <hr>
+        <h5>尺寸,將"修改"改成:sm</h5>
+        <div class="spinner-border spinner-border-修改" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+  </body>
+</html>
